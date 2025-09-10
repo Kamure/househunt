@@ -1,39 +1,17 @@
 <?php
-//echo "Today is " . date("l,F j,Y. ") . "<br>";
-
-//create databse connection
-//$servername="localhost";
-//$username="root";
-//$password="1234";
-//$dbname="kamz";
-
-//$conn = new mysqli($servername, $username, $password, $dbname);
-
-//check connection
-//if ($conn->connect_error) {
-   // die("Connection failed: " . $conn->connect_error);
-//}
-//echo "Connected successfully";
-
-
-
-class MyClass {
-    public function heading() {
-        echo "Welcome to BBIT DevOps!";
-    }
-    public function MyMethod() {
-        echo "<p>This is a new Semester.</p>";
-    }
-    public function footer () {
-        echo "<footer> Contact us at <a href='mailto:info@bbit.edu'>info@bbit.edu</a></footer>";
-    }
-}
+require_once 'classes.php';//making all the code in classes.phop avalable.
+require_once 'forms.php';//making all the code in forms.phop avalable.
 
 //create an instance of MyClass
 $instance = new MyClass();
 
+//create an instance of user_forms
+$formInstance = new user_forms();
+
 //call the method MyMethod 
 $instance->heading();
 $instance->MyMethod();
+
+//call the method signup_form
+$formInstance->signup_form();
 $instance->footer();
-?>
