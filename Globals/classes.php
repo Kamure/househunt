@@ -1,5 +1,5 @@
 <?php
-class MyClass {
+class layouts {
     public function heading() {
         echo "Welcome to BBIT DevOps!";
     }
