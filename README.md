@@ -28,10 +28,11 @@ HOUSEHUNT/
 
 Images
 ![Welcome Email](Images/Personalised_Email.png)
+
 ![User Listing](Images/Registered_Users.png)
-![Welcome Email](Images/welcome_email.png)
+
 ![Database_view](Images/database_image.png)
-![Welcome Email](Images/welcome_email.png)
+
 ![Site_Page](Images/Site_Page.png)
 
 Git Workflow
