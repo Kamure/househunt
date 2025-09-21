@@ -27,7 +27,7 @@ HOUSEHUNT/
 ├── users.php
 
 Images
-![Welcome Email](Images/Personalised_Email.png)
+![Welcome Email](Images/Personalised_Email.jpg)
 
 ![User Listing](Images/Registered_Users.png)
 
